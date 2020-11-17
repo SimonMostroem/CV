@@ -27,10 +27,11 @@ h3 {
 }
 
 .middle-container {
+  position: relative;
 }
 
 .bottom-container {
-
+  position: relative;
 }
 
 .pro {
@@ -47,4 +48,11 @@ h3 {
   position: absolute;
   bottom: 300px;
   left: 400px;
+}
+
+.portrait {
+  /*border-radius: 50%;*/
+  border: 5px solid #555;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
