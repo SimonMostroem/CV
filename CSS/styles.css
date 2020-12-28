@@ -2,40 +2,95 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  background-color: #E4F9F5;
+  /*background-color: #E4F9F5;*/
+  background-color: white;
+  color: #40514E;
 }
 
 h1 {
+  color: #66BFBF;
+  /*color: black;*/
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  line-height: 2;
+  /*font-family: 'Sacramento', cursive;*/
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h2 {
-font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+  /*color: black;*/
+  font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
 }
-h3 {
 
+h3 {
+  color: #11999E;
+  /*color: black;*/
   font-family: 'Montserrat', sans-serif;
+
+
+}
+
+hr {
+  border: dotted #BBBBBB 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  margin: 10px 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
 
 .top-container {
-  background-color: #E4F9F5;
+  /*background-color: #E4F9F5;*/
   padding-top: 100px;
   position: relative;
 }
 
 .middle-container {
   position: relative;
+  margin: 100px 0 0;
 }
 
 .bottom-container {
+  padding: 50px 0 20px;
   position: relative;
+  background-color: #66BFBF;
+}
+
+.contact-me {
+  margin: 50px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
 }
 
 .pro {
   text-decoration: underline;
+}
+
+.intro {
+  margin: auto;
+  width: 30%;
 }
 
 .top-cloud {
@@ -46,13 +101,55 @@ h3 {
 
 .bottom-cloud {
   position: absolute;
-  bottom: 300px;
   left: 400px;
 }
 
 .portrait {
   /*border-radius: 50%;*/
-  border: 5px solid #555;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  /*border: 5px solid #555;*/
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+  width: 10%;
+}
+
+.code-img {
+  width: 10%;
+  float: left;
+  margin-right: 30px;
+}
+
+.music-img {
+  width: 7%;
+  float: right;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-message {
+  margin: 40px auto 60px;
+  width: 30%;
+}
+
+.BUTTON_NLE {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  height: 8px;
+  line-height: 8px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  width: 141px;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 18px;
+  background-color: #11999E;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
